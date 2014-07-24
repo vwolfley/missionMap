@@ -7,7 +7,7 @@ Mission Google Map
 
 Building a Google map with geojson.
 
-This project is about locating places where I served on my mission to the Minneapolis Minnesota Mission.
+This project is about locating places where I served on my mission to the Minneapolis Minnesota Mission (MMM).  I served under President John R. Peterson from June 30, 1993 to June 30, 1995.
 
 #### Version
 

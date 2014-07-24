@@ -1,0 +1,152 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Order": 0,
+        "Name": "MTC",
+        "City": "Provo, UT",
+        "When": "June 30, 1993 - July 22, 1993",
+        "Months": 0,
+        "Days": 0,
+        "Address": "*",
+        "Zip": 0,
+        "Comps": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.64568424224854,
+          40.25969863765159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Order": 1,
+        "Name": "*",
+        "City": "Bloomington, MN",
+        "When": "July 22, 1993 - December 8, 1993",
+        "Months": 0,
+        "Days": 0,
+        "Address": "*",
+        "Zip": 0,
+        "Comps": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.32164764404297,
+          44.8326217306206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Order": 2,
+        "Name": "*",
+        "City": "Austin",
+        "When": "December 9, 1993 - May 11, 1994",
+        "Months": 0,
+        "Days": 0,
+        "Address": "*",
+        "Zip": 0,
+        "Comps": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9747200012207,
+          43.668306210612464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Order": 3,
+        "Name": "*",
+        "City": "Cottage Grove",
+        "When": "May 12, 1994 - August 10, 1994",
+        "Months": 0,
+        "Days": 0,
+        "Address": "*",
+        "Zip": 0,
+        "Comps": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.94433593749999,
+          44.83055216443822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Order": 4,
+        "Name": "*",
+        "City": "Rosemount",
+        "When": "August 11, 1994 - November 30, 1994",
+        "Months": 0,
+        "Days": 0,
+        "Address": "*",
+        "Zip": 0,
+        "Comps": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.12698364257812,
+          44.73966154692653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Order": 5,
+        "Name": "*",
+        "City": "Brooklyn Center",
+        "When": "December 1, 1994 - March 31 1995",
+        "Months": 0,
+        "Days": 0,
+        "Address": "*",
+        "Zip": 0,
+        "Comps": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.32954406738281,
+          45.07533898380137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Order": 6,
+        "Name": "*",
+        "City": "Buffalo",
+        "When": "April 1, 1995 - June 30 1995",
+        "Months": 0,
+        "Days": 0,
+        "Address": "*",
+        "Zip": 0,
+        "Comps": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.8741397857666,
+          45.17223526390538
+        ]
+      }
+    }
+  ]
+}
