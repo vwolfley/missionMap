@@ -2,13 +2,28 @@
     "name" : "missionMap",
     "version" : "1.0.0",
     "date": "07/23/2014",
-    "author" : "Vern Wolfley",
-    "twitter": "@vernwolfley",
-    "url": "http://vwolfley.github.io/",
+    "description": "My Mission Map",
+    "keywords": [
+    "Mission",
+    "Minnesota",
+    "LDS",
+    "Missionary"
+  ],
+  "main": "index.js",
+  "homepage": "http://vwolfley.github.io/",
+  "author": "Vern Wolfley <@vernwolfley>",
+  "contributors": [
+    {
+      "name": "Vern Wolfley",
+      "email": "vwolfley@azmag.gov"
+    }
+  ],
     "private" : true,
+    "dependencies": {
+  },
 
     "devDependencies" : {
-        "grunt" :                       "~0.4.4",
+        "grunt" :                       "0.4.5",
         "grunt-contrib-cssmin":         "*",
         "grunt-contrib-jshint":         "*",
         "grunt-contrib-uglify":         "*",
@@ -16,5 +31,7 @@
         "grunt-contrib-watch":          "*",
         "matchdep":                     "*",
         "jshint-stylish-ex":            "*"
-    }
+    },
+    "license": "MIT"
 }
+

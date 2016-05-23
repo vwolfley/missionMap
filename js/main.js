@@ -4,8 +4,8 @@
 var map;
 function initialize() {
   var mapOptions = {
-    zoom: 10,
-    center: new google.maps.LatLng(34.399, -77.755),
+    zoom: 6,
+    center: new google.maps.LatLng(46.169, -92.908),
     scaleControl: true,
     zoomControl: true,
     zoomControlOptions: {
@@ -23,7 +23,7 @@ function initialize() {
   map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
 
   // Load a GeoJSON from the same server as our demo.
-  var jsonData = "data/ncVacationData.json";
+  var jsonData = "data/missionData.json";
   map.data.loadGeoJson(jsonData);
 
   // Add some style
@@ -73,14 +73,14 @@ function initialize() {
 
   // Set mouseover event for each feature.
   map.data.addListener("click", function(event) {
-    fam = event.feature.getProperty("Family");
-    name = event.feature.getProperty("Name");
-    address = event.feature.getProperty("Address");
+    //fam = event.feature.getProperty("City");
+    //name = event.feature.getProperty("When");
+    //address = event.feature.getProperty("Address");
     city = event.feature.getProperty("City");
-    phone = event.feature.getProperty("Phone");
-    web = event.feature.getProperty("Website");
+    when = event.feature.getProperty("When");
+    //web = event.feature.getProperty("Website");
 
-    content = "<strong>" + name + "</strong>" + "</br>" + address + "</br>" + city + "</br>" + phone + "</br>" + "<a href='" + web + "'>Website</a>";
+    content = "<strong>" + city + "</strong>" + "</br>" + when;
     infoWindow.setContent(content);
 
     var anchor = new google.maps.MVCObject();
